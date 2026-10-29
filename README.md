@@ -105,10 +105,6 @@ For questions, use the repository's GitHub Issues page, if enabled.
 
 No license is asserted by this README. Add a `LICENSE` file if redistribution and reuse permissions are intended.
 
-## Reviewer-requested reproducibility details (code inspection, October 2026)
-
-The following settings were extracted from available local copies of `Module_05.R`, `Module_06.R`, `Module_07.R`, `Module_09.R`, and `Module_11.R`. They describe **coded calls**, not independently verified execution logs. Some scripts use interactive steps or legacy Seurat slot access; successful end-to-end execution has not been independently established.
-
 ### Specimen-to-accession mapping
 
 | Specimen | Category | Public source |
