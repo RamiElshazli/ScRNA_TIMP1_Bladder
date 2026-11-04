@@ -184,15 +184,3 @@ if (requireNamespace("reticulate", quietly=TRUE)) {
   writeLines(capture.output(reticulate::py_config()), "python_environment.txt")
 }
 ```
-
-The script above records the **current execution environment**, not necessarily the historical environment of the original study. Do not claim exact historical versions without original logs, lockfiles, or session records. For reproducibility, archive an `renv.lock`, any Python dependency lockfile, and a versioned GitHub release. Avoid reinstalling Monocle3 from an unpinned GitHub HEAD on each run; use a fixed release or commit.
-
-### Outstanding tasks before a full reproducibility claim
-
-- Confirm P1 original downloaded file(s), probe-barcode assignment, and dataset version/date; complete the individual GSM/sample-to-file mapping for all GEO-derived specimens.
-- Verify QC thresholds and provide original input file names and hashes.
-- Confirm the final SingleR label-assignment code and score outputs.
-- Document PHATE and MAGIC package/Python versions and all nondefault parameters.
-- Record Monocle3 root identity, or remove claims of directional pseudotime.
-- Publish the exact gene sets and package versions for pathway module scores.
-- Test scripts in a clean environment and map each final figure/table to its generating command.
