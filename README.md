@@ -69,21 +69,6 @@ The manuscript describes the following analytical components. Their availability
 
 **Expression-data distinction:** raw UMI counts are appropriate for transcript detection and quality-control metrics; normalized but non-imputed expression supports standard transcriptional analyses; MAGIC-smoothed values must be labeled as imputed and should not be treated as directly observed counts. Verify the actual input assay for each script, particularly PHATE and Monocle3.
 
-## Reproducibility checklist
-
-Before considering the workflow fully reproducible, ensure the repository includes or documents:
-
-- [x] An official source URL for the P1 candidate 10x Genomics dataset (see provenance notes below).
-- [ ] Confirm P1 input filenames, probe-barcode assignment, and dataset/file release or download date from the original analysis records.
-- [ ] A verified description and execution command for every module.
-- [ ] R version, package versions, and installation instructions (`sessionInfo()` or `renv.lock`).
-- [ ] Input paths, file formats, and required Seurat object metadata columns.
-- [ ] Explicit quality-control thresholds, random seeds, and computational parameters.
-- [ ] A map from scripts to manuscript and supplementary figures/tables.
-- [ ] A distinction between analyses using raw, normalized non-imputed, and MAGIC-imputed expression.
-- [ ] Instructions for regenerating intermediate objects and final outputs.
-- [ ] A release tag or commit hash identifying the version used for publication.
-
 ## Getting started
 
 1. Install R and the dependencies declared in the relevant module scripts.
