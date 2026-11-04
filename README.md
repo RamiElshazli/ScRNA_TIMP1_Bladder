@@ -184,3 +184,18 @@ if (requireNamespace("reticulate", quietly=TRUE)) {
   writeLines(capture.output(reticulate::py_config()), "python_environment.txt")
 }
 ```
+
+"package","version"
+"Seurat","5.4.0"
+"SeuratObject","5.3.0"
+"sctransform","0.4.3"
+"glmGamPoi","1.18.0"
+"SingleR","2.8.0"
+"celldex","1.16.0"
+"SingleCellExperiment","1.28.1"
+"Rmagic","NOT INSTALLED"
+"phateR","1.0.7"
+"reticulate","1.45.0"
+"msigdbr","25.1.1"
+"monocle3","1.4.26"
+"SeuratWrappers","0.4.0"
